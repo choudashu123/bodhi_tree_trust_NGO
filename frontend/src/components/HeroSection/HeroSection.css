@@ -1,14 +1,72 @@
-.heroImage{
-  height : 70vh;
+.heroImage {
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center; /* vertically center */
+  justify-content: center; /* horizontally center */
+  text-align: center;
 }
 
-.heroImageText{
+.heroImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroImage .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Faint black overlay */
+  z-index: 1;
+}
+
+.heroImageText {
   position: absolute;
   z-index: 2;
-  max-width: 700px;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  color: white;
+  max-width: 500px;
+  top: 15%;
+  left : 15%;
+}
+
+.heroImageText h1 {
+  font-weight: 900 !important;
+  font-size: 3.5rem;
+  font-family: "Mansalva", cursive !important;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+@media(max-width:786px){
+  .heroImageText {
+    max-width: 300px;
+  }
+  .heroImageText h1{
+  font-size: 2.5rem;
+}}
+
+/* Slick arrow styling */
+.slick-prev,
+.slick-next {
+  z-index: 3;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.slick-prev {
+  left: 10px !important;
+}
+
+.slick-next {
+  right: 10px !important;
+}
+
+/* Prevent horizontal scrollbar */
+.slick-slider {
+  overflow: hidden;
 }

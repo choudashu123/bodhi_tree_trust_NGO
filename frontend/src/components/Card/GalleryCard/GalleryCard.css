@@ -1,0 +1,43 @@
+.card {
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    box-shadow: none ;
+    border: none;
+    border-radius: 0%;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-body {
+    z-index: 2;
+    position: absolute;
+    color: white;
+    bottom: 5%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+.overlay_red {
+    background-color: rgba(230, 19, 19, 0.4);
+}
+.overlay_green {
+    background-color: rgba(16, 155, 14, 0.4);
+}
+.overlay_yellow {
+    background-color: rgba(242, 234, 11, 0.4);
+}

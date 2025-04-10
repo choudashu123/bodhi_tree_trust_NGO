@@ -19,19 +19,22 @@ export default function HeroSection() {
     autoplaySpeed: 2000,
   };
   return (
-    <div className="container">
+    <div className="container-fluid px-0 py-0 position-relative" >
       <div className="heroImageText">
       <h1 class="text-white mb-3">Join The Movement To end Child Poverty</h1>
-      <p><a href="#" class="btn btn-primary py-3 px-4 rounded-0">Donate Now</a></p>
+      <p><a href="#" class="btn btn-success py-3 px-4 rounded-0">Donate Now</a></p>
       </div>
       <Slider {...settings}>
       <div className="heroImage">
+        <div className="overlay"></div>
         <img src={hero1} alt="" className="w-100" />
       </div>
       <div className="heroImage">
+        <div className="overlay"></div>
         <img src={hero2} alt="" className="w-100" />
       </div>
       <div className="heroImage">
+        <div className="overlay"></div>
         <img src={hero3} alt="" className="w-100" />
       </div>
     </Slider>
