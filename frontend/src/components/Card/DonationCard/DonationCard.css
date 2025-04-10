@@ -1,0 +1,47 @@
+.donation_pp {
+    height: 30px !important;            /* Make height and width equal */
+    width: 30px !important;
+    border-radius: 50%;      /* Makes it a perfect circle */
+    object-fit: cover;       /* Fill container without distortion */
+  }
+  .person_info {
+    display: flex;
+    align-items: center;     /* vertically center image + name */
+    gap: 8px;                /* add space between image and text */
+  }
+.donation_category{
+    width: fit-content;
+    background-color: green;
+    color:white;
+    border-radius: 10%;
+    padding: 5px 8px 5px 8px ;
+}
+.donation_card {
+    width: 400px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    margin : 5px;
+    border: 1px solid #e0e0e0; /* Light gray border */
+    border-radius: 8px; /* Slightly rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: all 0.3s ease;
+    background: white;
+}
+.donation_card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+.donation_card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.dcb{
+    position: relative;
+    margin-top: 5px;
+    padding : 5px;
+}

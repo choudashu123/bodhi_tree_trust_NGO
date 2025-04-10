@@ -9,12 +9,12 @@ interface GalleryCardProps {
 }
 const GalleryCard: React.FC<GalleryCardProps> = ({ image, title, description, overlay }) => {
   return (
-    <div className="card">
+    <div className="gallery_card">
       <div className={`overlay ${overlay}`}></div>
       <img src={image} alt={title} />
-      <div className="card-body">
-        <h3 className="text-color-white">{title}</h3>
-        <p>{description}</p>
+      <div className="gallery_card_body">
+        <h3 className="gallery_card_title">{title}</h3>
+        <p className="gallery_card_description">{description}</p>
       </div>
     </div>
   )

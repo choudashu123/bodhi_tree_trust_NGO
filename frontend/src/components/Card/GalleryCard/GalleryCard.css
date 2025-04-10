@@ -1,4 +1,4 @@
-.card {
+.gallery_card {
     width: 400px;
     height: 300px;
     display: flex;
@@ -10,18 +10,19 @@
     border-radius: 0%;
 }
 
-.card img {
+.gallery_card img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
 }
 
-.card-body {
+.gallery_card_body {
     z-index: 2;
     position: absolute;
     color: white;
     bottom: 5%;
+    left : 5%;
 }
 
 .overlay {
