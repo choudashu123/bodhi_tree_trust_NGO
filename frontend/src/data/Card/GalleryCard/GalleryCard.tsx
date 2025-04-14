@@ -1,6 +1,6 @@
-import gimg1 from '../../../assets/img_3_gray.jpg';
-import gimg2 from '../../../assets/img_2_gray.jpg';
-import gimg3 from '../../../assets/img_1_gray.jpg';
+import gimg1 from '../../../assets/liveh.jpeg';
+import gimg2 from '../../../assets/9.jpg';
+import gimg3 from '../../../assets/media2.jpg';
 export const CardData = [
     {
         id: 1,

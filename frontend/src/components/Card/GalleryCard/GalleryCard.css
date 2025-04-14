@@ -13,7 +13,7 @@
 .gallery_card img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: fill;
     object-position: center;
 }
 
@@ -41,4 +41,12 @@
 }
 .overlay_yellow {
     background-color: rgba(242, 234, 11, 0.4);
+}
+
+.gallery_card_title,
+.gallery_card_description {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: white;
 }

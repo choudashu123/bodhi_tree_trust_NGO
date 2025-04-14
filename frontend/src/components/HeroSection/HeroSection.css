@@ -70,3 +70,9 @@
 .slick-slider {
   overflow: hidden;
 }
+
+.donate-btn:hover {
+  background-color: #218838;
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}

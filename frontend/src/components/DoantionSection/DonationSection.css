@@ -1,0 +1,17 @@
+
+.cause-title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+  }
+  
+  .cause-description {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.2rem;
+    line-height: 1.8;
+  }
+  
+  .donation_cause {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  

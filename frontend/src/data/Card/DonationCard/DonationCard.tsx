@@ -1,5 +1,5 @@
-import dimg1 from '../../../assets/img_1.jpg'
-import dimg2 from '../../../assets/img_2.jpg'
+import dimg1 from '../../../assets/Screenshot (71).png'
+import dimg2 from '../../../assets/Screenshot (72).png'
 import dimg3 from '../../../assets/img_3.jpg'
 import pp from '../../../assets/Compress_2021.jpg'
 
